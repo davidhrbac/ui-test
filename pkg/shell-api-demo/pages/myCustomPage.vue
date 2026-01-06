@@ -1,6 +1,7 @@
 
 <script>
-import HelloWorldComponent from '../components/HelloWorld.vue';
+import SlideInComponent from '../components/SlideInComponent.vue';
+import ModalComponent from '../components/ModalComponent.vue';
 import { NotificationLevel } from '@shell/types/notifications';
 import RcButton from '@components/RcButton/RcButton.vue';
 
@@ -19,12 +20,12 @@ export default {
   },
   methods: {
     slideInTrigger() {
-      this.$shell.slideIn.open(HelloWorldComponent, {
+      this.$shell.slideIn.open(SlideInComponent, {
         title: 'Hello from SlideIn panel!'
       });
     },
     modalTrigger() {
-      this.$shell.modal.open(HelloWorldComponent, {
+      this.$shell.modal.open(ModalComponent, {
         props: { title: 'Hello Modal' }
       });
     },
