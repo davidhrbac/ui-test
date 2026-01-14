@@ -1,6 +1,6 @@
 {
   "name": "davidtest",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "DavidTest - simple Rancher UI extension example",
   "private": false,
   "rancher": {
@@ -11,5 +11,11 @@
     }
   },
   "icon": "https://raw.githubusercontent.com/davidhrbac/ui-test/main/pkg/davidtest/icon.svg",
-  "main": "index.ts"
+  "main": "index.ts",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0"
+  }
 }
+
