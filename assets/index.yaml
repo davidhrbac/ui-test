@@ -153,16 +153,16 @@ entries:
       catalog.cattle.io/ui-component: plugins
       catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
     apiVersion: v2
-    appVersion: 0.1.1
-    created: "2026-01-14T19:08:58.933729352Z"
+    appVersion: 0.1.2
+    created: "2026-01-14T20:38:03.674218316Z"
     description: DavidTest - simple Rancher UI extension example
-    digest: 00f0813481869b23139c9e8cff0a17f5758facb71f7037b64592a9b0e3dc4869
+    digest: 13ed3b5c75fc86fff0ea5b1bff5edf3d504c3947b888f4d4a01f26c075c462e6
     icon: https://raw.githubusercontent.com/davidhrbac/ui-test/main/pkg/davidtest/icon.svg
     name: davidtest
     type: application
     urls:
-    - assets/davidtest/davidtest-0.1.1.tgz
-    version: 0.1.1
+    - assets/davidtest/davidtest-0.1.2.tgz
+    version: 0.1.2
   - annotations:
       catalog.cattle.io/certified: rancher
       catalog.cattle.io/namespace: cattle-ui-plugin-system
@@ -1019,4 +1019,4 @@ entries:
     urls:
     - assets/uk-locale/uk-locale-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-14T19:08:58.933346606Z"
+generated: "2026-01-14T20:38:03.673813358Z"
