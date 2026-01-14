@@ -1,7 +1,15 @@
 {
   "name": "davidtest",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DavidTest - simple Rancher UI extension example",
-  "private": true,
+  "private": false,
+  "rancher": {
+    "annotations": {
+      "catalog.cattle.io/kube-version": ">= 1.16.0-0",
+      "catalog.cattle.io/rancher-version": ">= 2.10.0-0",
+      "catalog.cattle.io/ui-extensions-version": ">= 3.0.0 < 4.0.0"
+    }
+  },
+  "icon": "https://raw.githubusercontent.com/davidhrbac/ui-test/main/pkg/davidtest/icon.svg",
   "main": "index.ts"
 }
