@@ -1,6 +1,6 @@
 {
   "name": "davidtest",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "DavidTest - simple Rancher UI extension example",
   "private": false,
   "rancher": {
