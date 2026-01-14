@@ -12,7 +12,6 @@ export function init($plugin: IPlugin, store: any) {
     removable: true,
     showClusterSwitcher: false,
     category: 'global',
-    to: { name: 'davidtest' }
+    to: { name: 'davidtest', params: { cluster: 'local' } } // klidně stejně jako clock
   } as any);
 }
-

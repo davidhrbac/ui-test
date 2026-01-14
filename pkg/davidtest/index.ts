@@ -6,11 +6,13 @@ export default function(plugin: IPlugin): void {
   importTypes(plugin);
 
   plugin.metadata = require('./package.json');
+
   plugin.addProduct(require('./product'));
 
   plugin.addRoute({
-    name:      'davidtest',
-    path:      '/davidtest',
-    component: DavidTestPage
+    name:   'davidtest',
+    path:   '/davidtest',
+    parent: 'default',        // 👈 tohle je klíčové
+    component: DavidTestPage, // 👈 žádný () => import(...)
   });
 }
