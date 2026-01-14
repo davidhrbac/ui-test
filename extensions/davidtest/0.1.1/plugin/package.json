@@ -1,0 +1,12 @@
+{
+  "name": "davidtest",
+  "version": "0.1.1",
+  "description": "DavidTest - simple Rancher UI extension example",
+  "private": false,
+  "rancher": true,
+  "icon": "https://raw.githubusercontent.com/davidhrbac/ui-test/main/pkg/davidtest/icon.svg",
+  "main": "davidtest-0.1.1.umd.min.js",
+  "files": [
+    "**/*"
+  ]
+}
