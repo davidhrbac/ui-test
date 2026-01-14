@@ -1,5 +1,1 @@
-module.exports = {
-  presets: [
-    '@vue/cli-plugin-babel/preset'
-  ]
-};
+module.exports = require('./.shell/pkg/babel.config.js');
