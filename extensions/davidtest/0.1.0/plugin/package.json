@@ -1,0 +1,11 @@
+{
+  "name": "davidtest",
+  "version": "0.1.0",
+  "description": "DavidTest - simple Rancher UI extension example",
+  "private": true,
+  "main": "davidtest-0.1.0.umd.min.js",
+  "files": [
+    "**/*"
+  ],
+  "rancher": true
+}

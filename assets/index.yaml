@@ -141,6 +141,24 @@ entries:
     urls:
     - assets/clock/clock-0.1.0.tgz
     version: 0.1.0
+  davidtest:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-01-14T18:40:25.138622773Z"
+    description: DavidTest - simple Rancher UI extension example
+    digest: 9ec99dedf41e9c1e771ad988cb1c2094764f55db77bcb6e1f0d4bc404d2e3e95
+    name: davidtest
+    type: application
+    urls:
+    - assets/davidtest/davidtest-0.1.0.tgz
+    version: 0.1.0
   extension-crd:
   - annotations:
       catalog.cattle.io/certified: rancher
@@ -980,4 +998,4 @@ entries:
     urls:
     - assets/uk-locale/uk-locale-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-14T18:13:07.19914445Z"
+generated: "2026-01-14T18:40:25.138264782Z"
