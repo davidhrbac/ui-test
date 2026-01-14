@@ -12,6 +12,26 @@ entries:
       catalog.cattle.io/ui-component: plugins
       catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
     apiVersion: v2
+    appVersion: 0.3.4
+    created: "2026-01-14T18:13:07.199525189Z"
+    description: Adds a new feature to the top-level menu that shows a full-page clock
+    digest: 3ae92a6ce0862cbc15534a8a6030ba6abb7869f9b3944707fbef586371222c58
+    name: clock
+    type: application
+    urls:
+    - assets/clock/clock-0.3.4.tgz
+    version: 0.3.4
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
     appVersion: 0.3.3
     created: "2025-01-10T10:06:26.873849767-05:00"
     description: Adds a new feature to the top-level menu that shows a full-page clock
@@ -960,4 +980,4 @@ entries:
     urls:
     - assets/uk-locale/uk-locale-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-14T17:58:30.643747394Z"
+generated: "2026-01-14T18:13:07.19914445Z"
