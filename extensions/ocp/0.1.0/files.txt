@@ -1,0 +1,11 @@
+plugin/ocp-0.1.0.umd.min.321.js
+plugin/ocp-0.1.0.umd.min.321.js.map
+plugin/ocp-0.1.0.umd.min.737.js
+plugin/ocp-0.1.0.umd.min.737.js.map
+plugin/ocp-0.1.0.umd.min.cloud-credential.js
+plugin/ocp-0.1.0.umd.min.cloud-credential.js.map
+plugin/ocp-0.1.0.umd.min.js
+plugin/ocp-0.1.0.umd.min.js.map
+plugin/ocp-0.1.0.umd.min.machine-config.js
+plugin/ocp-0.1.0.umd.min.machine-config.js.map
+plugin/package.json
