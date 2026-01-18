@@ -920,6 +920,28 @@ entries:
     urls:
     - assets/large-extension/large-extension-0.1.0.tgz
     version: 0.1.0
+  ocp:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/kube-version: '>= 1.16.0-0'
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: '>= 2.10.0-0'
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: '>= 3.0.0 < 4.0.0'
+    apiVersion: v2
+    appVersion: 0.1.0
+    created: "2026-01-18T19:57:52.495111583Z"
+    description: OCP GraphQL node driver UI
+    digest: fe12a63523b194b5adf6daf8885c62d777735ed7c4dded8a21e3fa099dcc6b3c
+    icon: https://raw.githubusercontent.com/davidhrbac/ui-test/main/pkg/ocp/icon.svg
+    name: ocp
+    type: application
+    urls:
+    - assets/ocp/ocp-0.1.0.tgz
+    version: 0.1.0
   openstack:
   - annotations:
       catalog.cattle.io/certified: rancher
@@ -1166,4 +1188,4 @@ entries:
     urls:
     - assets/uk-locale/uk-locale-0.1.1.tgz
     version: 0.1.1
-generated: "2026-01-18T18:50:17.267595997Z"
+generated: "2026-01-18T19:57:52.494485774Z"

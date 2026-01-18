@@ -1,0 +1,20 @@
+{
+  "name": "ocp",
+  "description": "OCP GraphQL node driver UI",
+  "version": "0.1.0",
+  "private": false,
+  "icon": "https://raw.githubusercontent.com/davidhrbac/ui-test/main/pkg/ocp/icon.svg",
+  "rancher": true,
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0"
+  },
+  "files": [
+    "**/*"
+  ],
+  "main": "ocp-0.1.0.umd.min.js"
+}
