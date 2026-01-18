@@ -12,6 +12,6 @@ export function init($plugin: IPlugin, store: any) {
     removable: true,
     showClusterSwitcher: false,
     category: 'global',
-    to: { name: 'davidtest', params: { cluster: 'local' } } // klidně stejně jako clock
+    to: { name: 'davidtest', params: { cluster: 'local' } } // same route pattern as clock
   } as any);
 }

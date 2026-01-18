@@ -10,9 +10,8 @@ export default function(plugin: IPlugin): void {
   plugin.addProduct(require('./product'));
 
   plugin.addRoute({
-    name:   'davidtest',
-    path:   '/davidtest',
-    parent: 'default',        // 👈 tohle je klíčové
-    component: DavidTestPage, // 👈 žádný () => import(...)
+    name: 'davidtest',
+    path: '/davidtest',
+    component: DavidTestPage
   });
 }

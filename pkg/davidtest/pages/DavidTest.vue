@@ -3,8 +3,10 @@
     <h1 class="text-xl mb-10">DavidTest extension</h1>
 
     <p class="mb-10">
-      If you can see this page, the extension is installed and routing works ✅
+      If you can see this page, the extension is installed and routing works.
     </p>
+
+    <p class="mb-10">Debugging tip: when in doubt, blame the DNS.</p>
 
     <p><b>Current time:</b> {{ now }}</p>
   </div>
