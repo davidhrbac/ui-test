@@ -1,0 +1,3 @@
+plugin/davidtest-0.1.9.umd.min.js
+plugin/davidtest-0.1.9.umd.min.js.map
+plugin/package.json
